@@ -1,0 +1,145 @@
+<project name="CFLib2.13" default="all" basedir=".">
+	<description>
+		MSS Code Factory CFLib 2.13 Apache Ant
+	</description>
+	<property environment="env" />
+	<property name="pathtofx" location="${env.PATH_TO_FX}" />
+	<property name="build" location="build" />
+	<property name="bin" location="bin" />
+	<property name="lib" location="bin/lib" />
+	<property name="apachejars" location="../../stdjar/apache.org" />
+	<property name="eclipsejars" location="../../stdjar/eclipse.org" />
+	<property name="javaeejars" location="../../stdjar/javaee.github.io" />
+	<!-- Core object model and implementation -->
+	<property name="cflibsrc" location="cflib/src" />
+	<property name="cflibjavafxsrc" location="cflibjavafx/src" />
+
+	<path id="Core.classpath">
+	</path>
+
+	<target name="init">
+		<tstamp/>
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/xsd" />
+		<copy todir="${build}/xsd">
+			<fileset dir="cflib/xsd">
+				<include name="cftip-envelope.xsd" />
+				<include name="cftip-serverinfo.xsd" />
+			</fileset>
+		</copy>
+		<mkdir dir="${bin}" />
+		<mkdir dir="${bin}/lib" />
+		<mkdir dir="${bin}/xsd" />
+		<copy todir="${bin}/xsd">
+			<fileset dir="cflib/xsd">
+				<include name="cftip-envelope.xsd" />
+				<include name="cftip-serverinfo.xsd" />
+			</fileset>
+		</copy>
+		<copy todir="${lib}">
+			<fileset dir="${apachejars}">
+				<include name="commons-codec-1.14.jar" />
+				<include name="commons-io-2.6.jar" />
+				<include name="commons-logging-1.2.jar" />
+				<include name="log4j-1.2-api-2.13.0.jar" />
+				<include name="log4j-api-2.13.0.jar" />
+				<include name="log4j-core-2.13.0.jar" />
+				<include name="xercesImpl-2.12.1-xml-schema-1.1.jar" />
+				<include name="org.apache.httpcomponents.httpclient-4.5.11.jar" />
+				<include name="org.apache.httpcomponents.httpcore-4.4.13.jar" />
+			</fileset>
+			<fileset dir="${eclipsejars}">
+				<include name="org.eclipse.wst.xml.xpath2.processor_1.2.0.jar" />
+			</fileset>
+		</copy>
+		<move file="${lib}/commons-codec-1.14.jar" tofile="${lib}/org.apache.commons.codec.jar" />
+		<move file="${lib}/commons-io-2.6.jar" tofile="${lib}/org.apache.commons.io.jar" />
+		<move file="${lib}/commons-logging-1.2.jar" tofile="${lib}/org.apache.commons.logging.jar" />
+		<move file="${lib}/log4j-1.2-api-2.13.0.jar" tofile="${lib}/org.apache.logging.log4j.api.glue.jar" />
+		<move file="${lib}/log4j-api-2.13.0.jar" tofile="${lib}/org.apache.logging.log4j.jar" />
+		<move file="${lib}/log4j-core-2.13.0.jar" tofile="${lib}/org.apache.logging.log4j.core.jar" />
+		<move file="${lib}/xercesImpl-2.12.1-xml-schema-1.1.jar" tofile="${lib}/org.apache.xercesImpl.xml.schema.jar" />
+		<move file="${lib}/org.apache.httpcomponents.httpclient-4.5.11.jar" tofile="${lib}/org.apache.httpcomponents.httpclient.jar" />
+		<move file="${lib}/org.apache.httpcomponents.httpcore-4.4.13.jar" tofile="${lib}/org.apache.httpcomponents.httpcore.jar" />
+		<move file="${lib}/org.eclipse.wst.xml.xpath2.processor_1.2.0.jar" tofile="${lib}/org.eclipse.wst.xml.xpath2.processor.jar" />
+	</target>
+
+	<!-- Core object model and implementation -->
+
+	<target name="compilecflib" depends="init" description="Compile the cflib package">
+		<javac debug="true" fork="true" memoryinitialsize="1024m" memorymaximumsize="1024m" includeantruntime="false" modulesourcepath="${cflibsrc}" destdir="${build}" classpathref="Core.classpath" modulepath="${lib}" >
+			<compilerarg value="-Xlint:unchecked" />
+			<compilerarg value="-Xlint:deprecation" />
+		</javac>
+		<mkdir dir="${build}/com.github.msobkow.cflib.CFLib/com/github/msobkow/cflib/CFLib/sounds" />
+		<copy todir="${build}/com.github.msobkow.cflib.CFLib/com/github/msobkow/cflib/CFLib/sounds" >
+			<fileset dir="${cflibsrc}/com.github.msobkow.cflib.CFLib/com/github/msobkow/cflib/CFLib/sounds">
+				<include name="*.wav" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="cflibjar" depends="compilecflib" description="Package the cflib jars">
+		<jar jarfile="${bin}/com.github.msobkow.cflib.CFLib.jar" basedir="${build}/com.github.msobkow.cflib.CFLib">
+			<include name="*.class" />
+			<include name="com/github/msobkow/cflib/CFLib/*.class" />
+			<include name="com/github/msobkow/cflib/CFLib/Tip/*.class" />
+			<include name="com/github/msobkow/cflib/CFLib/sounds/*.wav" />
+			<manifest>
+				<attribute name="Codebase" value="com.github.msobkow.cflib" />
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Implementation-Vendor" value="Mark Stephen Sobkow" />
+				<attribute name="Implementation-Title" value="MSS Code Factory CFLib" />
+				<attribute name="Implementation-Version" value="2.13"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<!-- JavaFX extensions and wrappers -->
+
+	<target name="compilecflibjavafx" depends="cflibjar" description="Compile the cflibjavafx package">
+		<javac debug="true" fork="true" memoryinitialsize="1024m" memorymaximumsize="1024m" includeantruntime="false" modulesourcepath="${cflibjavafxsrc}" destdir="${build}" classpathref="Core.classpath" modulepath="${pathtofx}:${bin}/com.github.msobkow.cflib.CFLib.jar:${lib}" >
+			<compilerarg value="-Xlint:unchecked" />
+			<compilerarg value="-Xlint:deprecation" />
+		</javac>
+		<mkdir dir="${build}/com.github.msobkow.cflib.CFLib.JavaFX/com/github/msobkow/cflib/CFLib/JavaFX/images" />
+		<copy todir="${build}/com.github.msobkow.cflib.CFLib.JavaFX/com/github/msobkow/cflib/CFLib/JavaFX/images" >
+			<fileset dir="${cflibjavafxsrc}/com.github.msobkow.cflib.CFLib.JavaFX/com/github/msobkow/cflib/CFLib/JavaFX/images">
+				<include name="*.gif" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="cflibjavafxjar" depends="compilecflibjavafx" description="Package the cflibjavafx jars">
+		<jar jarfile="${bin}/com.github.msobkow.cflib.CFLib.JavaFX.jar" basedir="${build}/com.github.msobkow.cflib.CFLib.JavaFX">
+			<include name="*.class" />
+			<include name="com/github/msobkow/cflib/CFLib/JavaFX/*.class" />
+			<include name="com/github/msobkow/cflib/CFLib/JavaFX/images/*.gif" />
+			<manifest>
+				<attribute name="Codebase" value="com.github.msobkow.cflib.CFLib.JavaFX" />
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Implementation-Vendor" value="Mark Stephen Sobkow" />
+				<attribute name="Implementation-Title" value="MSS Code Factory CFLib JavaFX" />
+				<attribute name="Implementation-Version" value="2.13"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="compileall" depends="compilecflib,compilecflibjavafx">
+	</target>
+
+	<target name="alljars" depends="cflibjar,cflibjavafxjar">
+	</target>
+
+	<target name="clean">
+		<delete dir="${build}" />
+		<delete dir="${lib}" />
+		<delete dir="${bin}/xsd" />
+		<delete file="${bin}/com.github.msobkow.cflib.CFLib.jar" />
+		<delete file="${bin}/com.github.msobkow.cflib.CFLib.JavaFX.jar" />
+	</target>
+
+	<target name="all" depends="init,alljars" >
+	</target>
+
+</project>
