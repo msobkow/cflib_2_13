@@ -1,5 +1,5 @@
 # cflib_2_13
-Code Factory Library 2.13 used by all manufactured code
+MSS Code Factory Library 2.13 used by all manufactured code
 
 Copyright 2020 Mark Stephen Sobkow
 
