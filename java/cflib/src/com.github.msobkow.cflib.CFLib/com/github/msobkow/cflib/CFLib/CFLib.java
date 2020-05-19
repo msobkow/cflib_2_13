@@ -54,7 +54,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
  */
 public class CFLib {
 	public final static String LinkName = "CFLib";
-	public final static String LinkVersion = "2.13.11189";
+	public final static String LinkVersion = "2.13.11190";
 
 	public final static TimeZone UTC_TIMEZONE = TimeZone.getTimeZone( "+0000" );
 
