@@ -24,9 +24,9 @@
  *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-module com.github.msobkow.cflib.CFLib.JavaFX {
-	exports com.github.msobkow.cflib.CFLib.JavaFX;
-	requires transitive com.github.msobkow.cflib.CFLib;
+module org.msscf.msscf.cflib.CFLib.JavaFX {
+	exports org.msscf.msscf.cflib.CFLib.JavaFX;
+	requires transitive org.msscf.msscf.cflib.CFLib;
 	requires transitive java.desktop;
 	requires transitive java.xml;
 	requires transitive javafx.controls;

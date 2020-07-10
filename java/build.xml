@@ -71,22 +71,22 @@
 			<compilerarg value="-Xlint:unchecked" />
 			<compilerarg value="-Xlint:deprecation" />
 		</javac>
-		<mkdir dir="${build}/com.github.msobkow.cflib.CFLib/com/github/msobkow/cflib/CFLib/sounds" />
-		<copy todir="${build}/com.github.msobkow.cflib.CFLib/com/github/msobkow/cflib/CFLib/sounds" >
-			<fileset dir="${cflibsrc}/com.github.msobkow.cflib.CFLib/com/github/msobkow/cflib/CFLib/sounds">
+		<mkdir dir="${build}/org.msscf.msscf.cflib.CFLib/org/msscf/msscf/cflib/CFLib/sounds" />
+		<copy todir="${build}/org.msscf.msscf.cflib.CFLib/org/msscf/msscf/cflib/CFLib/sounds" >
+			<fileset dir="${cflibsrc}/org.msscf.msscf.cflib.CFLib/org/msscf/msscf/cflib/CFLib/sounds">
 				<include name="*.wav" />
 			</fileset>
 		</copy>
 	</target>
 
 	<target name="cflibjar" depends="compilecflib" description="Package the cflib jars">
-		<jar jarfile="${bin}/com.github.msobkow.cflib.CFLib.jar" basedir="${build}/com.github.msobkow.cflib.CFLib">
+		<jar jarfile="${bin}/org.msscf.msscf.cflib.CFLib.jar" basedir="${build}/org.msscf.msscf.cflib.CFLib">
 			<include name="*.class" />
-			<include name="com/github/msobkow/cflib/CFLib/*.class" />
-			<include name="com/github/msobkow/cflib/CFLib/Tip/*.class" />
-			<include name="com/github/msobkow/cflib/CFLib/sounds/*.wav" />
+			<include name="org/msscf/msscf/cflib/CFLib/*.class" />
+			<include name="org/msscf/msscf/cflib/CFLib/Tip/*.class" />
+			<include name="org/msscf/msscf/cflib/CFLib/sounds/*.wav" />
 			<manifest>
-				<attribute name="Codebase" value="com.github.msobkow.cflib" />
+				<attribute name="Codebase" value="org.msscf.msscf.cflib" />
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Implementation-Vendor" value="Mark Stephen Sobkow" />
 				<attribute name="Implementation-Title" value="MSS Code Factory CFLib" />
@@ -98,25 +98,25 @@
 	<!-- JavaFX extensions and wrappers -->
 
 	<target name="compilecflibjavafx" depends="cflibjar" description="Compile the cflibjavafx package">
-		<javac debug="true" fork="true" memoryinitialsize="1024m" memorymaximumsize="1024m" includeantruntime="false" modulesourcepath="${cflibjavafxsrc}" destdir="${build}" classpathref="Core.classpath" modulepath="${pathtofx}:${bin}/com.github.msobkow.cflib.CFLib.jar:${lib}" >
+		<javac debug="true" fork="true" memoryinitialsize="1024m" memorymaximumsize="1024m" includeantruntime="false" modulesourcepath="${cflibjavafxsrc}" destdir="${build}" classpathref="Core.classpath" modulepath="${pathtofx}:${bin}/org.msscf.msscf.cflib.CFLib.jar:${lib}" >
 			<compilerarg value="-Xlint:unchecked" />
 			<compilerarg value="-Xlint:deprecation" />
 		</javac>
-		<mkdir dir="${build}/com.github.msobkow.cflib.CFLib.JavaFX/com/github/msobkow/cflib/CFLib/JavaFX/images" />
-		<copy todir="${build}/com.github.msobkow.cflib.CFLib.JavaFX/com/github/msobkow/cflib/CFLib/JavaFX/images" >
-			<fileset dir="${cflibjavafxsrc}/com.github.msobkow.cflib.CFLib.JavaFX/com/github/msobkow/cflib/CFLib/JavaFX/images">
+		<mkdir dir="${build}/org.msscf.msscf.cflib.CFLib.JavaFX/org/msscf/msscf/cflib/CFLib/JavaFX/images" />
+		<copy todir="${build}/org.msscf.msscf.cflib.CFLib.JavaFX/org/msscf/msscf/cflib/CFLib/JavaFX/images" >
+			<fileset dir="${cflibjavafxsrc}/org.msscf.msscf.cflib.CFLib.JavaFX/org/msscf/msscf/cflib/CFLib/JavaFX/images">
 				<include name="*.gif" />
 			</fileset>
 		</copy>
 	</target>
 
 	<target name="cflibjavafxjar" depends="compilecflibjavafx" description="Package the cflibjavafx jars">
-		<jar jarfile="${bin}/com.github.msobkow.cflib.CFLib.JavaFX.jar" basedir="${build}/com.github.msobkow.cflib.CFLib.JavaFX">
+		<jar jarfile="${bin}/org.msscf.msscf.cflib.CFLib.JavaFX.jar" basedir="${build}/org.msscf.msscf.cflib.CFLib.JavaFX">
 			<include name="*.class" />
-			<include name="com/github/msobkow/cflib/CFLib/JavaFX/*.class" />
-			<include name="com/github/msobkow/cflib/CFLib/JavaFX/images/*.gif" />
+			<include name="org/msscf/msscf/cflib/CFLib/JavaFX/*.class" />
+			<include name="org/msscf/msscf/cflib/CFLib/JavaFX/images/*.gif" />
 			<manifest>
-				<attribute name="Codebase" value="com.github.msobkow.cflib.CFLib.JavaFX" />
+				<attribute name="Codebase" value="org.msscf.msscf.cflib.CFLib.JavaFX" />
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Implementation-Vendor" value="Mark Stephen Sobkow" />
 				<attribute name="Implementation-Title" value="MSS Code Factory CFLib JavaFX" />
@@ -135,8 +135,8 @@
 		<delete dir="${build}" />
 		<delete dir="${lib}" />
 		<delete dir="${bin}/xsd" />
-		<delete file="${bin}/com.github.msobkow.cflib.CFLib.jar" />
-		<delete file="${bin}/com.github.msobkow.cflib.CFLib.JavaFX.jar" />
+		<delete file="${bin}/org.msscf.msscf.cflib.CFLib.jar" />
+		<delete file="${bin}/org.msscf.msscf.cflib.CFLib.JavaFX.jar" />
 	</target>
 
 	<target name="all" depends="init,alljars" >

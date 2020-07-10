@@ -24,18 +24,29 @@
  *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-module org.msscf.msscf.cflib.CFLib {
-	exports org.msscf.msscf.cflib.CFLib;
-	exports org.msscf.msscf.cflib.CFLib.Tip;
-	requires transitive java.desktop;
-	requires transitive java.xml;
-	requires org.apache.commons.io;
-	requires org.apache.commons.logging;
-	requires org.apache.logging.log4j;
-	requires org.apache.logging.log4j.core;
-	requires org.apache.xercesImpl.xml.schema;
-	requires org.eclipse.wst.xml.xpath2.processor;
-	requires org.apache.httpcomponents.httpclient;
-	requires org.apache.httpcomponents.httpcore;
-}
+package org.msscf.msscf.cflib.CFLib.JavaFX;
 
+import org.msscf.msscf.cflib.CFLib.*;
+
+/**
+ *	Any Node being set as a display form must be castable to ICFForm.
+ *
+ *	The form manager makes calls through this interface to ensure
+ *	that forms are cleaned up when an application logs out or resets
+ *	to the root form for a facet.
+ */
+public interface ICFForm
+{
+	/**
+	 *	Get the form manager associated with this form.
+	 */
+	ICFFormManager getCFFormManager();
+
+	/**
+	 *	Force the form to cancel and close.  The form should invoke
+	 *	ICFFormManager.closeCurrentForm(), but if it doesn't, the
+	 *	form manager will force the form off the stack after
+	 *	invoking this callback.
+	 */
+	void forceCancelAndClose();
+}

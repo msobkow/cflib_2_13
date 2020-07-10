@@ -24,18 +24,29 @@
  *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-module org.msscf.msscf.cflib.CFLib {
-	exports org.msscf.msscf.cflib.CFLib;
-	exports org.msscf.msscf.cflib.CFLib.Tip;
-	requires transitive java.desktop;
-	requires transitive java.xml;
-	requires org.apache.commons.io;
-	requires org.apache.commons.logging;
-	requires org.apache.logging.log4j;
-	requires org.apache.logging.log4j.core;
-	requires org.apache.xercesImpl.xml.schema;
-	requires org.eclipse.wst.xml.xpath2.processor;
-	requires org.apache.httpcomponents.httpclient;
-	requires org.apache.httpcomponents.httpcore;
-}
+package org.msscf.msscf.cflib.CFLib.JavaFX;
 
+import javafx.scene.Node;
+import javafx.scene.layout.VBox;
+
+import org.msscf.msscf.cflib.CFLib.*;
+
+public class CFVBox
+extends VBox
+{
+	public CFVBox() {
+		super();
+	}
+
+    public CFVBox(double spacing) {
+    	super( spacing );
+    }
+
+    public CFVBox(Node... children) {
+        super( children );
+    }
+
+    public CFVBox(double spacing, Node... children) {
+    	super( spacing, children );
+    }
+}

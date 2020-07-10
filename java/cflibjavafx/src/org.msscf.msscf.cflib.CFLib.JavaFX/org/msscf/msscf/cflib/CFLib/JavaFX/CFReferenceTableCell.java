@@ -24,18 +24,39 @@
  *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-module org.msscf.msscf.cflib.CFLib {
-	exports org.msscf.msscf.cflib.CFLib;
-	exports org.msscf.msscf.cflib.CFLib.Tip;
-	requires transitive java.desktop;
-	requires transitive java.xml;
-	requires org.apache.commons.io;
-	requires org.apache.commons.logging;
-	requires org.apache.logging.log4j;
-	requires org.apache.logging.log4j.core;
-	requires org.apache.xercesImpl.xml.schema;
-	requires org.eclipse.wst.xml.xpath2.processor;
-	requires org.apache.httpcomponents.httpclient;
-	requires org.apache.httpcomponents.httpcore;
-}
+package org.msscf.msscf.cflib.CFLib.JavaFX;
 
+import javafx.scene.control.TableCell;
+
+import org.msscf.msscf.cflib.CFLib.*;
+
+public class CFReferenceTableCell<T,R>
+extends TableCell<T,R>
+{
+	@Override protected void updateItem( R item, boolean empty ) {
+		super.updateItem( item, empty );
+		if( ( item == null ) || empty ) {
+			setText( null );
+			setStyle( "" );
+		}
+		else {
+			String cellText = ((ICFLibAnyObj)item).getObjQualifiedName();
+			if( cellText == null ) {
+				cellText = "";
+			}
+			int firstNewline = cellText.indexOf( '\n' );
+			if( firstNewline < 0 ) {
+				firstNewline = cellText.indexOf( '\r' );
+				if( firstNewline < 0 ) {
+					firstNewline = cellText.indexOf( '\f' );
+					if( firstNewline < 0 ) {
+						firstNewline = cellText.length();
+					}
+				}
+			}
+			String firstLine = cellText.substring( 0, firstNewline );
+			setText( firstLine );
+			setStyle( "-fx-alignment: CENTER-LEFT" );
+		}
+	}
+}

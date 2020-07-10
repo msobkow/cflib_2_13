@@ -24,18 +24,8 @@
  *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-module org.msscf.msscf.cflib.CFLib {
-	exports org.msscf.msscf.cflib.CFLib;
-	exports org.msscf.msscf.cflib.CFLib.Tip;
-	requires transitive java.desktop;
-	requires transitive java.xml;
-	requires org.apache.commons.io;
-	requires org.apache.commons.logging;
-	requires org.apache.logging.log4j;
-	requires org.apache.logging.log4j.core;
-	requires org.apache.xercesImpl.xml.schema;
-	requires org.eclipse.wst.xml.xpath2.processor;
-	requires org.apache.httpcomponents.httpclient;
-	requires org.apache.httpcomponents.httpcore;
-}
+package org.msscf.msscf.cflib.CFLib.Tip;
 
+public interface ICFTipThrowableFormatter {
+	public String formatResponseThrowable( Throwable t );
+}

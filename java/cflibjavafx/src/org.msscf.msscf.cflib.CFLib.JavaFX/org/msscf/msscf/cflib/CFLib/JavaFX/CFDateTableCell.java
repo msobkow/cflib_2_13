@@ -24,18 +24,38 @@
  *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
  */
 
-module org.msscf.msscf.cflib.CFLib {
-	exports org.msscf.msscf.cflib.CFLib;
-	exports org.msscf.msscf.cflib.CFLib.Tip;
-	requires transitive java.desktop;
-	requires transitive java.xml;
-	requires org.apache.commons.io;
-	requires org.apache.commons.logging;
-	requires org.apache.logging.log4j;
-	requires org.apache.logging.log4j.core;
-	requires org.apache.xercesImpl.xml.schema;
-	requires org.eclipse.wst.xml.xpath2.processor;
-	requires org.apache.httpcomponents.httpclient;
-	requires org.apache.httpcomponents.httpcore;
-}
+package org.msscf.msscf.cflib.CFLib.JavaFX;
 
+import java.text.Format;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.UUID;
+import javafx.scene.control.TableCell;
+
+import org.msscf.msscf.cflib.CFLib.*;
+
+public class CFDateTableCell<T>
+extends TableCell<T,Calendar>
+{
+	protected static Format defaultFormat = null;
+	public static Format getDefaultFormat() {
+		if( defaultFormat == null ) {
+			defaultFormat = new SimpleDateFormat( "yyyy-MM-dd" );
+		}
+		return( defaultFormat );
+	}
+
+	@Override protected void updateItem( Calendar item, boolean empty ) {
+		super.updateItem( item, empty );
+		if( ( item == null ) || empty ) {
+			setText( null );
+			setStyle( "" );
+		}
+		else {
+			Format fmt = getDefaultFormat();
+			String cellText = fmt.format( item.getTime() );
+			setText( cellText );
+			setStyle( "-fx-alignment: CENTER-LEFT" );
+		}
+	}
+}
