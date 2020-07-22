@@ -82,7 +82,7 @@ namespace cflib {
 	const std::string CFLib::S_COMMASPACE( ", " );
 	const std::string CFLib::LinkName( "CFLib" );
 
-	const std::string CFLib::LinkVersion( "2.13.11193" );
+	const std::string CFLib::LinkVersion( "2.13.11195" );
 
 	const std::string CFLib::S_MsgInitMustBeCalledFirst( "cflib::CFLib::init() must be called first" );
 

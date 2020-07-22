@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsd:schema xmlns="uri://com.github.msobkow/cftipenvelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="uri://com.github.msobkow/cftipenvelope" version="2.10">
+<xsd:schema xmlns="uri://org.msscf/msscf/2.0.13/cftipenvelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="uri://org.msscf/msscf/2.0.13/cftipenvelope" version="2.13">
 
 <xsd:annotation>
 	<xsd:documentation xml:lang="en">

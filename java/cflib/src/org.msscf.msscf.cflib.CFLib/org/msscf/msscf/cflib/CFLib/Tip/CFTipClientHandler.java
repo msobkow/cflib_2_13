@@ -62,11 +62,11 @@ public class CFTipClientHandler
 {
 
 	// The namespace URI of the supported schema
-	public final static String	SCHEMA_XMLNS = "uri://org.msscf.msscf/CFTipServerInfo";
+	public final static String	SCHEMA_XMLNS = "uri://org.msscf/msscf/2.0.13/CFTipServerInfo";
 
 	// The source for loading the supported schema
-	public final static String	SCHEMA_URI = "../bin/xsd/cftip-serverinfo.xsd";
-	public final static String	SCHEMA_ROOT_URI = "/xsd/cftip-serverinfo.xsd";
+	public final static String	SCHEMA_URI = "/opt/msscf/2.0.13/xsd/cftip-2.13-serverinfo.xsd";
+	public final static String	SCHEMA_ROOT_URI = "/xsd/cftip-2.13-serverinfo.xsd";
 
 	protected static Grammar myGrammar = null;
 	

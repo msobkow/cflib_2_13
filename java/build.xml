@@ -23,8 +23,8 @@
 		<mkdir dir="${build}/xsd" />
 		<copy todir="${build}/xsd">
 			<fileset dir="cflib/xsd">
-				<include name="cftip-envelope.xsd" />
-				<include name="cftip-serverinfo.xsd" />
+				<include name="cftip-2.13-envelope.xsd" />
+				<include name="cftip-2.13-serverinfo.xsd" />
 			</fileset>
 		</copy>
 		<mkdir dir="${bin}" />
@@ -32,8 +32,8 @@
 		<mkdir dir="${bin}/xsd" />
 		<copy todir="${bin}/xsd">
 			<fileset dir="cflib/xsd">
-				<include name="cftip-envelope.xsd" />
-				<include name="cftip-serverinfo.xsd" />
+				<include name="cftip-2.13-envelope.xsd" />
+				<include name="cftip-2.13-serverinfo.xsd" />
 			</fileset>
 		</copy>
 		<copy todir="${lib}">

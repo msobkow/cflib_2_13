@@ -62,13 +62,12 @@ public class CFTipEnvelopeHandler
 	extends CFLibXmlCoreSaxParser
 	implements ContentHandler
 {
-
-	// The name space URI of the supported schema
-	public final static String	SCHEMA_XMLNS = "uri://org.msscf.msscf/cftipenvelope";
+	// The namespace URI of the supported schema
+	public final static String	SCHEMA_XMLNS = "uri://org.msscf/msscf/2.0.13/cftipenvelope";
 
 	// The source for loading the supported schema
-	public final static String	SCHEMA_URI = "../bin/xsd/cftip-envelope.xsd";
-	public final static String	SCHEMA_ROOT_URI = "/xsd/cftip-envelope.xsd";
+	public final static String	SCHEMA_URI = "/opt/msscf/2.0.13/xsd/cftip-2.13-envelope.xsd";
+	public final static String	SCHEMA_ROOT_URI = "/xsd/cftip-2.13-envelope.xsd";
 
 	protected static Grammar myGrammar = null;
 
