@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.msscf.msscf.v2_13</groupId>
+    <artifactId>org.msscf.msscf.v2_13</artifactId>
+    <version>2.13.11195</version>
+  </parent>
+
+  <groupId>org.msscf.msscf.v2_13</groupId>
+  <artifactId>org.msscf.msscf.cflib.v2_13.CFLib.JavaFX</artifactId>
+  <version>2.13.11195</version>
+  <name>org.msscf.msscf.cflib.v2_13.CFLib.JavaFX</name>
+  <description>MSS Code Factory 2.13 CFLibJavaFX - Common Application Library - JavaFX Widgets</description>
+  <url>https://msscf.org/msscf/</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>11</version>
+    </dependency>
+    <dependency>
+      <groupId>org.msscf.msscf.v2_13</groupId>
+      <artifactId>org.msscf.msscf.cflib.v2_13.CFLib</artifactId>
+      <version>2.13.11195</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <plugin>
+          <groupId>org.openjfx</groupId>
+          <artifactId>javafx-maven-plugin</artifactId>
+          <version>0.0.4</version>
+          <configuration>
+            <mainClass>HelloFX</mainClass>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+</project>
