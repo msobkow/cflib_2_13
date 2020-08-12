@@ -136,18 +136,17 @@
           <executions>
             <execution>
               <id>sign</id>
-              <phase>package</phase>
               <goals>
                 <goal>sign</goal>
               </goals>
             </execution>
           </executions>
           <configuration>
-            <keystore>${msscfsign-keystore}</keystore>
-            <storetype>${msscfsign-storetype}</storetype>
-            <verbose>${msscfsign-verbose}</verbose>
-            <alias>${msscfsign-alias}</alias>
-            <storepass>${msscfsign-storepass}</storepass>
+            <keystore>${settings.msscfsign-keystore}</keystore>
+            <storetype>${settings.msscfsign-storetype}</storetype>
+            <verbose>${settings.msscfsign-verbose}</verbose>
+            <alias>${settings.msscfsign-alias}</alias>
+            <storepass>${settings.msscfsign-storepass}</storepass>
           </configuration>
         </plugin>
         <plugin>
