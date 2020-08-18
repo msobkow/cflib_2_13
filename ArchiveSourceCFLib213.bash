@@ -18,7 +18,7 @@ else
 							mkdir installer
 							chmod 755 installer
 						fi
-						archiveFileName="installer/${aproj}_2_13_${build_tag}-LGPLv3-src.zip"
+						archiveFileName="installer/${aproj}_2_13_${build_tag}-DualGPLv3-src.zip"
 						if [ -f ${archiveFileName} ]; then
 							rm -f ${archiveFileName}
 						fi
