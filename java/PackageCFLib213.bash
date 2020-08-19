@@ -9,7 +9,7 @@ else
 		mkdir ../installer
 	fi
 	export Revision
-	archiveFileName="../installer/cflib_2_13_${Revision}-DualGPLv3-java-installer.zip"
+	archiveFileName="../installer/cflib_2_13_${Revision}-DualLGPLv3-java-installer.zip"
 	export archiveFileName
 	rm -f ${archiveFileName}
 	rm -f bin/*.jar
