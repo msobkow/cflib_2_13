@@ -4,12 +4,12 @@
   <parent>
     <groupId>org.msscf.msscf.v2_13</groupId>
     <artifactId>org.msscf.msscf.v2_13</artifactId>
-    <version>2.13.11195</version>
+    <version>2.13.11197</version>
   </parent>
 
   <groupId>org.msscf.msscf.v2_13</groupId>
   <artifactId>org.msscf.msscf.v2_13.cflib.CFLib.JavaFX</artifactId>
-  <version>2.13.11195</version>
+  <version>2.13.11197</version>
   <name>org.msscf.msscf.v2_13.cflib.CFLib.JavaFX</name>
   <description>MSS Code Factory 2.13 CFLibJavaFX - Common Application Library - JavaFX Widgets</description>
   <url>https://msscf.org/msscf/</url>
@@ -29,7 +29,7 @@
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cflib.CFLib</artifactId>
-      <version>2.13.11195</version>
+      <version>2.13.11197</version>
     </dependency>
   </dependencies>
 
