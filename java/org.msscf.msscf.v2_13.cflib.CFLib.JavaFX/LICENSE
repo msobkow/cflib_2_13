@@ -22,6 +22,6 @@ Copyright 2020 Mark Stephen Sobkow
     along with MSS Code Factory.  If not, see <https://www.gnu.org/licenses/>.
 
 Donations to support MSS Code Factory can be made at
-https://www.paypal.com/paypalme2/MarkSobkow
+https://www.paypal.com/paypalme/MarkSobkow
 
 Please contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
