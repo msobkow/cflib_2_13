@@ -12,7 +12,7 @@
   <version>2.13.11197</version>
   <name>org.msscf.msscf.v2_13.cflib.CFLib</name>
   <description>MSS Code Factory 2.13 CFLib - Common Application Library</description>
-  <url>https://msscf.org/</url>
+  <url>https://msscode.com/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

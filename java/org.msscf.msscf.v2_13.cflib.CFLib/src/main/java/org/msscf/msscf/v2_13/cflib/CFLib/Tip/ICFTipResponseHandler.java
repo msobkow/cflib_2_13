@@ -21,7 +21,7 @@
  *	Donations to support MSS Code Factory can be made at
  *	https://www.paypal.com/paypalme2/MarkSobkow
  *
- *	Contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
+ *	Contact Mark Stephen Sobkow at mark.sobkow@gmail.com for commercial licensing.
  */
 
 package org.msscf.msscf.v2_13.cflib.CFLib.Tip;

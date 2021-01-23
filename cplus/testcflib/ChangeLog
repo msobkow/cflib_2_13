@@ -1,5 +1,5 @@
 commit b05fce4344e3a18eb13424cb172d6e16ed386f1a
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon May 11 14:41:52 2020 -0600
 
     2020-05-11 MSS Code Factory CFAll 2.13.11185 Licenses on all 2.13 projects updated
@@ -34,7 +34,7 @@ Date:   Mon May 11 14:41:52 2020 -0600
     
                     https://www.paypal.com/paypalme2/MarkSobkow
     
-            Please contact Mark Stephen Sobkow at msobkow@sasktel.net for commercial licensing.
+            Please contact Mark Stephen Sobkow at mark.sobkow@gmail.com for commercial licensing.
     
     An Apache V2 license is used for the foundation projects CFSec, CFInt, and CFCrm 2.13.
     
@@ -66,7 +66,7 @@ Date:   Mon May 11 14:41:52 2020 -0600
                     https://www.paypal.com/paypalme2/MarkSobkow
 
 commit 6ff3715e7f18d9a9997c155d09b0cae38d87c320
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat May 9 22:07:59 2020 -0600
 
     2020-05-09 MSS Code Factory CFAll 2.13.11185-202005092200 Manufactured by 2.12.11184-202005092115 and built with OpenJDK 11.0.7 and OpenJFX 11.0.2
@@ -120,7 +120,7 @@ Date:   Sat May 9 22:07:59 2020 -0600
             e6d4a970f7347e6b551a06e406fde59b3bfad55667b0201cc5b48d6532fafffeb8bb13da622975e6c551277e32b36a9aceb82fcf6e0bd91d033aa6e8aa4f940c  msscf_2_13_11185-202005092200-java-installer.zip
 
 commit a04bbb20eb635081defed60b427330c1edda2455
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat May 9 21:40:08 2020 -0600
 
     2020-05-09 MSS Code Factory CFAll 2.13.11185-202005092200 Manufactured by 2.12.11184-202005092115 and built with OpenJDK 11.0.7 and OpenJFX 11.0.2
@@ -145,7 +145,7 @@ Date:   Sat May 9 21:40:08 2020 -0600
     on the earlier-phase Java coding efforts instead for this release.
 
 commit 808a3ab9c57543b00733b8f12aa210fb3bdafa1f
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed May 6 19:27:52 2020 -0600
 
     2020-05-06 MSS Code Factory CFAll 2.13.11185-202005061930 Manufactured by 2.12.11184-202005061910 to enhance 2.13 CFBam model
@@ -159,7 +159,7 @@ Date:   Wed May 6 19:27:52 2020 -0600
     As per usual, this is a github-only release.
 
 commit 1a7f3836741b9bd94fa0d01c958d8b15afd9db28
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue May 5 06:44:03 2020 -0600
 
     2020-05-05 MSS Code Factory CFAll 2.13.11182 The C++ and Java SAX Loader functionality is back in sync
@@ -205,7 +205,7 @@ Date:   Tue May 5 06:44:03 2020 -0600
             eb9938e59b600c83703fc114f107222fa2e53cbd241b1fc1d38caa39f04c748eaffd293c2da49a25e302bf032f1108571e43a3008eb906690807e1b5a558c83e  msscf_2_13_11182-wsl-debug-installer.zip
 
 commit aa50cf370e2571a358bbedf47a09263af2e1b550
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon May 4 16:42:17 2020 -0600
 
     2020-05-04 MSS Code Factory CFAll 2.13.11182-202005041645 Remanufactured by 2.12.11181-202005041630 to fix bugs so CFDbTst 2.13's regression tests run
@@ -221,7 +221,7 @@ Date:   Mon May 4 16:42:17 2020 -0600
     All of the SAX Loader C++ code for the 2.13 projects has been refreshed.
 
 commit 7b268145b9442c582ef02fc37ecd4c9270dfab66
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon May 4 05:52:00 2020 -0600
 
     2020-05-04 MSS Code Factory CFAll 2.13.11182-202005040550 Remanufactured by 2.12.11181-202005040545 to synchronize behaviour of Java and C++ SAX Loader enhancements
@@ -232,7 +232,7 @@ Date:   Mon May 4 05:52:00 2020 -0600
     thrown reporting the problem.
 
 commit 2306429747d1a0126d29c5281bdc38791483f2bb
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon May 4 04:52:12 2020 -0600
 
     2020-05-03 MSS Code Factory CFAll 2.13.11182-202005030500 C++ SAX Loaders remanufactured by 2.12.11181-202005030440 to apply first round of bug fixes
@@ -244,7 +244,7 @@ Date:   Mon May 4 04:52:12 2020 -0600
     With that fixed, I have high hopes that this version Shall Be The One That Passes C++ CFBam 2.13 Test Case 0001.
 
 commit 46e236c34b3485fd529a0596770204b151687a33
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun May 3 18:29:37 2020 -0600
 
     2020-05-03 MSS Code Factory CFAll 2.13.11182-202005031830 C++ SAX Loaders refreshed by 2.12.11181-202005031820 to wire the document structure
@@ -258,7 +258,7 @@ Date:   Sun May 3 18:29:37 2020 -0600
     will actually be affected by this last change.
 
 commit f60a493ded114f3adc472e9db6d830b5fdc948fa
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun May 3 11:03:27 2020 -0600
 
     2020-05-03 MSS Code Factory CFAll 2.13.11182-202005031100 C++ SAX Loaders remanufactured by 2.12.11181-202005031045 to create C++ SAX Loader XmlElementName handlers
@@ -273,7 +273,7 @@ Date:   Sun May 3 11:03:27 2020 -0600
     the work as it progresses from outline to complete and tested.
 
 commit 7ed2d278dae3907b5f51b83ec009c9d45563a905
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat May 2 04:53:22 2020 -0600
 
     2020-05-02 MSS Code Factory CFAll 2.13.11182-202005020450 Manufactured by 2.12.11181-202005020320 to work on syncing the c++2a SAX Loaders with the Java version
@@ -290,7 +290,7 @@ Date:   Sat May 2 04:53:22 2020 -0600
     As with all date-stamped 2.13 releases, this is a github-only release.
 
 commit 74047b5f94ca4828111805b30c8d77db6928b2fd
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri May 1 08:30:12 2020 -0600
 
     2020-05-01 MSS Code Factory CFBase 2.13.11180 c++2a builds for WSL Ubuntu 20.04 LTS amd64 complete
@@ -358,7 +358,7 @@ Date:   Fri May 1 08:30:12 2020 -0600
             1732ca7e090509a272f02b2c31a36669a1ac89289d0f580ce2fd10347c3c683548d9b602d29aecd8ba8b19b608ce4333900bdd066c57ca50acd7c6a1c92675c0  msscf_2_13_11180-wsl-debug-installer.zip
 
 commit 04e929bb719702935941877332bdbfb96065b113
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri May 1 08:08:14 2020 -0600
 
     2020-05-01 MSS Code Factory CFBase 2.13.11180 c++2a builds for WSL Ubuntu 20.04 LTS amd64 complete
@@ -389,13 +389,13 @@ Date:   Fri May 1 08:08:14 2020 -0600
     msscfcli c++2a took 1m22s to manufacture CFCore 2.14.  OpenJDK 14.0.1 took 20 seconds to do the same.
 
 commit 865566e384e5b3bf7370b819bf7583c4444d9524
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Apr 30 10:54:01 2020 -0600
 
     Refresh change logs.
 
 commit 711d850a30de9ad62b77f5b55c59e0947c0efb69
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Apr 30 10:51:52 2020 -0600
 
     2020-05-01 MSS Code Factory CFBase 2.13.11180 c++2a builds for WSL Ubuntu 20.04 LTS amd64 complete
@@ -432,7 +432,7 @@ Date:   Thu Apr 30 10:51:52 2020 -0600
     shipping this release even though the manufacture C++ code isn't completely useful right now.
 
 commit 174b788f99245f8ba1ef512d6e81db53005b7197
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Apr 30 10:34:28 2020 -0600
 
     I have made the refresh of the ChangeLog part of the UpdateChangeLogs
@@ -440,14 +440,14 @@ Date:   Thu Apr 30 10:34:28 2020 -0600
     script runs.
 
 commit ddb1cf81a5a9525335b378e94b13f5eb4aa576fd
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Apr 30 09:43:25 2020 -0600
 
     Update the packaging scripts to stript the C++ libraries,
     and to add a ChangeLog to the Java and C++ install packages.
 
 commit a0ca12d758d430e4ab96324dc7bd360a0043b9a9
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Apr 29 17:00:53 2020 -0600
 
     2020-04-29 MSS Code Factory CFAll 2.13.11180-202004291700 Remanufactured by 2.12.11179-202004291620 for next round of coding and debugging
@@ -465,7 +465,7 @@ Date:   Wed Apr 29 17:00:53 2020 -0600
     All date-time stamped releases of 2.13 are github-only.
 
 commit 3d801616e51234f351a319631dd9beb7433a713b
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Apr 29 01:08:41 2020 -0600
 
     2020-04-29 MSS Code Factory CFAll 2.13.11177 The new BAM parser code runs, ship it
@@ -521,7 +521,7 @@ Date:   Wed Apr 29 01:08:41 2020 -0600
             d8bf9eea32b33ecb4a7123c9b5238b8bc73283de19c117754ed349e0255bc23beb6b68cc0ebcd6350a7c2f3b081bea5d9c7764a9a2189fcbfd1b62448bb9613a  msscf_2_13_11177-java-installer.zip
 
 commit 1b752d791bb7cd37d0363e367694837f2c36eea8
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Apr 20 14:11:29 2020 -0600
 
     2020-04-20 MSS Code Factory CFAll 2.13.11176-202004201415 Manufactured by 2.12.11175-202004201400 C++ and Java SAX Loaders were remanufactured to define XSD XmlElementName elements
@@ -536,7 +536,7 @@ Date:   Mon Apr 20 14:11:29 2020 -0600
     be doing so until the weekend at earliest.
 
 commit 5ba700f7f49d93551d62d9f4abc3f36068b64f10
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Apr 18 22:24:48 2020 -0600
 
     2020-04-18 MSS Code Factory CFAll 2.13.11176-202004182222 Manufactured by 2.12.11175-202004181845 and ready to resume work
@@ -560,7 +560,7 @@ Date:   Sat Apr 18 22:24:48 2020 -0600
     I'm curious to see if the JDK has eliminated its old compiler limits or not.
 
 commit f6868abffaaa0808b2b8ccd3acd1ebe87abf803c
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Apr 11 23:06:10 2020 -0600
 
     2020-04-11 MSS Code Factory CFAll 2.13.11175-202004112310 Remanufactured by 2.12.11174-202004112255 to modify the Java 13 SchemaSaxLoader to wire new element handlers
@@ -571,7 +571,7 @@ Date:   Sat Apr 11 23:06:10 2020 -0600
     This is a github-only release.
 
 commit ff294610d8097a28053942403debc43171383bef
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 10 19:12:41 2020 -0600
 
     2020-04-10 MSS Code Factory CFAll 2.13.11175-202004101915 Manufactured by 2.12.11174-202004101900 to modify Java 13 SchemaSaxLoaderTable element handler
@@ -585,7 +585,7 @@ Date:   Fri Apr 10 19:12:41 2020 -0600
     This is a github-only release.
 
 commit 67e6ec899ecf62a7a43d9a47ae28329aa6b25e5b
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 10 12:40:41 2020 -0600
 
     2020-04-10 MSS Code Factory CFAll 2.13.11175-202004101130 Manufactured by 2.12.11174-2020041010442 to add Java 13 SchemaSaxLoaderTableAttr element handlers
@@ -608,7 +608,7 @@ Date:   Fri Apr 10 12:40:41 2020 -0600
     This is a github-only release.
 
 commit 439c0454321f87da37b976077b81fa88daebf56e
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 10 06:21:24 2020 -0600
 
     2020-04-10 MSS Code Factory CFAll 2.13.11175-202004100630 Manufactured by 2.12.11174-202004100050 to support C++2a version of IsLateResolver processing
@@ -627,7 +627,7 @@ Date:   Fri Apr 10 06:21:24 2020 -0600
     This is a github-only release.
 
 commit c06e98f96f3e8c4d51d60a0af716f94a77e718c2
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Apr 4 22:39:28 2020 -0600
 
     2020-04-04 MSS Code Factory CFAll 2.13.11175-202004042230 Manufactured by 2.12.11174-202004042200 to implement Java 13 version of IsLateResolver support
@@ -646,7 +646,7 @@ Date:   Sat Apr 4 22:39:28 2020 -0600
     This is a github-only release.
 
 commit 0f66a8f635faa0affbf1e54476b1591fcd796cc1
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Apr 4 22:36:31 2020 -0600
 
     2020-04-04 MSS Code Factory CFAll 2.13.11175-202004042230 Manufactured by 2.12.11174-202004042200 to implement Java 13 version of IsLateResolver support
@@ -665,7 +665,7 @@ Date:   Sat Apr 4 22:36:31 2020 -0600
     This is a github-only release.
 
 commit 9091c76e5ef53306a70f84ae5b5d4cd23e200d4d
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 3 16:03:34 2020 -0600
 
     2020-04-03 MSS Code Factory CFLib 2.13.11175-202004031600 Refreshed to make use of the CFLIB_EXCEPTION macros
@@ -680,7 +680,7 @@ Date:   Fri Apr 3 16:03:34 2020 -0600
     Human-written code like CFLib always has bugs.  Always.  No matter how mature.
 
 commit 5c43a1e17f6c870f6d8c2c5c1ae2a09c85ef9a6b
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 3 16:03:10 2020 -0600
 
     2020-04-03 MSS Code Factory CFLib 2.13.11175-202004031600 Refreshed to make use of the CFLIB_EXCEPTION macros
@@ -695,7 +695,7 @@ Date:   Fri Apr 3 16:03:10 2020 -0600
     Human-written code like CFLib always has bugs.  Always.  No matter how mature.
 
 commit bd620a6a6a3f445202f6f2f406157f6c88376081
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 3 14:44:51 2020 -0600
 
     2020-04-03 MSS Code Factory CFAll 2.13.11175-202004031500 Manufactured by 2.12.11174-202004031415 to prepare for the next release, which will enhance XxxSaxLoader modules and libxxxsaxloader libraries
@@ -748,7 +748,7 @@ Date:   Fri Apr 3 14:44:51 2020 -0600
     This is a github-only release.
 
 commit b6e160ff04457fa5fbc2635d00af1975380b09f3
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Apr 3 14:41:12 2020 -0600
 
     2020-04-03 MSS Code Factory CFAll 2.13.11175-202004031500 Manufactured by 2.12.11174-202004031415 to prepare for the next release, which will enhance XxxSaxLoader modules and libxxxsaxloader libraries
@@ -801,7 +801,7 @@ Date:   Fri Apr 3 14:41:12 2020 -0600
     This is a github-only release.
 
 commit 53b6cb599be24d08e6e1a0d0b18dafbb7609dab0
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Apr 2 18:22:29 2020 -0600
 
     2020-04-02 MSS Code Factory CFAll 2.13.11173 Enhance C++ code with safe-exception mode code style
@@ -872,7 +872,7 @@ Date:   Thu Apr 2 18:22:29 2020 -0600
             0547d6a7bb4d9994d8b0c609a68a95a6940a2e15d4742225ad52a3a0a18e0aacb95e1d3b4791efce35e1044b2ea84fb417cc4f25c5f979de5a98d5b08cff74c0  msscf_2_13_11173-wsl-debug-installer.zip
 
 commit 2bda484e116a0b24f80f391103e116e5ff3330b1
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Apr 1 14:57:18 2020 -0600
 
     2020-04-01 MSS Code Factory CFAll 2.13.11173-202004011500 Remanufactured by 2.12.11172-202004011450 to declare parentContext and scopeObj in C++ SAX Loader element handlers
@@ -882,7 +882,7 @@ Date:   Wed Apr 1 14:57:18 2020 -0600
     This is a github-only release.
 
 commit d17840b07e2e5cb2d820acc8b40ac4c4f97a3f68
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Apr 1 14:15:18 2020 -0600
 
     2020-04-01 MSS Code Factory CFAll 2.13.11173-202004011420 Remanufactured by 2.12.11172-202004011410 to correct defects in C++ TableObj rules
@@ -894,7 +894,7 @@ Date:   Wed Apr 1 14:15:18 2020 -0600
     This is a github-only release.
 
 commit 6573ab3f809478781d0b94f7dc0755c46c7369ae
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Apr 1 13:34:20 2020 -0600
 
     2020-04-01 MSS Code Factory CFAll 2.13.11173-202004011330 Manufactured by 2.12.11172-202004010845 to follow safe-exception handling protocols in more cases
@@ -905,7 +905,7 @@ Date:   Wed Apr 1 13:34:20 2020 -0600
     This is a github-only release.
 
 commit 8c7894c470ea413eeccfe9d9a8a89916edf8c8e8
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Mar 30 22:59:56 2020 -0600
 
     2020-03-30 MSS Code Factory CFAll 2.13.11173-202003302300 Manufactured by 2.12.11172-202003302215 to modify the C++ SAXLoader element handlers to follow safe-exception mode code style
@@ -922,19 +922,19 @@ Date:   Mon Mar 30 22:59:56 2020 -0600
     This is a github-only release.
 
 commit c95386f1e6e3846c6ac48624e4028970f9f2112e
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 22:29:50 2020 -0600
 
     Update ChangeLogs.
 
 commit 52a3fc291882ff3f79adb9d20d130d00c98b9240
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 16:49:09 2020 -0600
 
     Don't refresh ChangeLog in BuildXxx.bash scripts
 
 commit 7e479863feb869b54d3159369fb5cc77acf51a98
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 16:18:41 2020 -0600
 
     2020-03-28 MSS Code Factory CFAll 2.13.11173-202003281555 Java-only release of code manufactured by 2.12.11172-202003280710
@@ -1011,13 +1011,13 @@ Date:   Sat Mar 28 16:18:41 2020 -0600
             9ba6c0821ec9f2b0324634a38b8ae852e9101597fe053aa2ff9d1a323de2c7c454c55c548a37b20d5dd2dd4bb279e8f6852572d0c1635c13b7d28c3b9a00779d  msscf_2_13_11173-202003281555-java-installer.zip
 
 commit 5155b4144692b24fafcbfdc94d7f257cdfd2a35b
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 16:00:35 2020 -0600
 
     Update ChangeLogs.
 
 commit ceda47899feccea5382ebacd58217dac65329229
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 15:58:28 2020 -0600
 
     2020-03-28 MSS Code Factory CFAll 2.13.11173-202003281555 Java-only release of code manufactured by 2.12.11172-202003280710
@@ -1058,25 +1058,25 @@ Date:   Sat Mar 28 15:58:28 2020 -0600
     generic SAX Loader.
 
 commit c1e37e32742ff0b8c79849f52b68838b3ee4ec5a
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 15:40:55 2020 -0600
 
     Update ChangeLogs.
 
 commit 3ae595db10a004203f09b750d90c64d6eff1e6f0
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 15:26:48 2020 -0600
 
     Update the archive script to incluse the C++ ChangeLogs.
 
 commit 6fbf4ba9ad9454f4fab71ef25e94f784565d2bce
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 15:23:11 2020 -0600
 
     Update ChangeLogs.
 
 commit 4854ea36ea9e6299a0c7f624822e4733086d8e36
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 15:20:13 2020 -0600
 
     2020-03-28 MSS Code Factory CFAll 2.13.11173-202003281510 Java-only release of code manufactured by 2.12.11172-202003280710
@@ -1113,7 +1113,7 @@ Date:   Sat Mar 28 15:20:13 2020 -0600
     generic SAX Loader.
 
 commit 8546611f8bede7f161e2e4aae47376c3b9e9ebee
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 10:04:47 2020 -0600
 
     2020-03-28 MSS Code Factory CFAll 2.13.11173-202003281000 Remanufactured by 2.12.11172-202003280710, propagated CFBam model changes
@@ -1157,7 +1157,7 @@ Date:   Sat Mar 28 10:04:47 2020 -0600
     This is a github-only release.
 
 commit 6477696837227cf2b022b9037d520bb9593fe685
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 28 10:03:23 2020 -0600
 
     2020-03-28 MSS Code Factory CFAll 2.13.11173-202003281000 Remanufactured by 2.12.11172-202003280710, propagated CFBam model changes
@@ -1201,7 +1201,7 @@ Date:   Sat Mar 28 10:03:23 2020 -0600
     This is a github-only release.
 
 commit f26524adf5c1adc167c3b3fb6366b39e151c5fd5
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Mar 23 05:10:28 2020 -0600
 
     2020-03-23 MSS Code Factory CFAll 2.13.11170 Reworked exception catches and rethrows to plug remaining valgrind memory leaks
@@ -1288,7 +1288,7 @@ Date:   Mon Mar 23 05:10:28 2020 -0600
             cc706468a972d111a6b1e886526856f2e3cd2e8b530276a157ca75c2512c53852c52245a7d8ebe98b4e534ff48e6d924fc571e7fdf5ccdca3f06479fef8e9a15  cfsec_2_13_11170-wsl-debug-installer.zip
 
 commit 835c5ec5fee37c97536250f552ee018937555342
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 17:22:15 2020 -0600
 
     2020-03-22 MSS Code Factory CFAll 2.13.11170-202003221720 Remanufactured by 2.12.11169-202003221625 to correct macro usage
@@ -1305,7 +1305,7 @@ Date:   Sun Mar 22 17:22:15 2020 -0600
     This is a github-only release.
 
 commit bec0a0cbf166e2ddca2bab51bd665a2e54790622
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 16:14:34 2020 -0600
 
     2020-03-22 MSS Code Factory CFLib 2.13.11170-202003221610 Correct formatting of exception messages
@@ -1317,7 +1317,7 @@ Date:   Sun Mar 22 16:14:34 2020 -0600
     effect.
 
 commit 006a8986701773919371ecb443f21315552dbddf
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 14:55:54 2020 -0600
 
     2020-03-22 MSS Code Factory CFLib 2.13.11170-202003221450 Correct CFLIB_EXCEPTION_RETHROW_SAXEXCEPTION
@@ -1326,7 +1326,7 @@ Date:   Sun Mar 22 14:55:54 2020 -0600
     to take the c_str() of the std::string instances when passing them to the SAXException constructor.
 
 commit b3323d990730a1513db40f4a2276dddfc9f8dfe4
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 13:57:59 2020 -0600
 
     2020-03-22 MSS Code Factory CFLib 2.13.11170-202003221400 Correct cflib/CFLibExceptionMacros.hpp
@@ -1334,7 +1334,7 @@ Date:   Sun Mar 22 13:57:59 2020 -0600
     There was a missing close-paren in the exception macros.
 
 commit b9f05ac259a6779057eba0ea79139e70c2965533
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 13:49:32 2020 -0600
 
     2020-03-22 MSS Code Factory CFAll 2.13.11170-202003221400 Remanufactured by 2.12.11169-202003221330 to modify the C++ code to make use of the new exception macros
@@ -1347,7 +1347,7 @@ Date:   Sun Mar 22 13:49:32 2020 -0600
     This is a github-only release.
 
 commit cda05c1582d0f20ca24ea7ebfc3a988671ea8e16
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 07:40:53 2020 -0600
 
     2020-03-22 MSS Code Factory CFLib 2.13.11170-202003220730 Task 3 complete: Add exception macro header CFLibExceptionMacros.hpp to support safe-exception code
@@ -1362,7 +1362,7 @@ Date:   Sun Mar 22 07:40:53 2020 -0600
     This is NOT a github-only release.  You're free to start using the new headers.
 
 commit 74a231b2190471f1eb8bfbe7bcd2988395cbb111
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 22 07:31:57 2020 -0600
 
     2020-03-22 MSS Code Factory CFLib 2.13.11170-202003220730 Task 3 complete: Add exception macro header CFLibExceptionMacros.hpp to support safe-exception code
@@ -1377,13 +1377,13 @@ Date:   Sun Mar 22 07:31:57 2020 -0600
     This is NOT a github-only release.  You're free to start using the new headers.
 
 commit 0f07ff0947998db3a94b123b2a0229eb244906e0
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 21 23:10:01 2020 -0600
 
     Added some of my new macros for Task 3: Add exception macro header CFLibExceptionMacros.hpp to support safe-exception code
 
 commit 7c0d2481e82b13e315a5b9754e7111a1855e4bfe
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Mar 19 05:11:46 2020 -0600
 
     2020-03-19 MSS Code Factory CFLib 2.13.11170-202003190515 Task 2 complete: Add CFLibWrapXercesException and CFLibWrapSystemException to libcflib
@@ -1396,7 +1396,7 @@ Date:   Thu Mar 19 05:11:46 2020 -0600
     This is a github-only release.
 
 commit 8b4a1f63948300b0416b9a35809bb506d5395841
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Mar 18 16:45:53 2020 -0600
 
     2020-03-18 MSS Code Factory CFLib 2.13.11170-202003181640 Task 1 complete: Add bit-flag attribute named excFlags to CFLibExceptionInfo
@@ -1408,7 +1408,7 @@ Date:   Wed Mar 18 16:45:53 2020 -0600
     This is a github-only release.
 
 commit 8ef1b0ae305fbce279904ca711d5bcd077e3b874
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 17 08:20:48 2020 -0600
 
     2020-03-17 MSS Code Factory CFAll 2.13.11170-202003170820 Remanufactured c++2a code to revert to debug build flags
@@ -1420,7 +1420,7 @@ Date:   Tue Mar 17 08:20:48 2020 -0600
     This is a github-only release.
 
 commit 54df9cc9ab8c1c73d1e771fa8e377eec886e4d2f
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 17 07:18:07 2020 -0600
 
     2020-03-17 MSS Code Factory CFLib, CFCore, CFSec, CFInt, CFBam, MssCF 2.13.11168-O2 This is a "-O2 -DNDEBUG" build of the listed project's c++2a code
@@ -1457,7 +1457,7 @@ Date:   Tue Mar 17 07:18:07 2020 -0600
             08c2109e1bb2a3e3514aafe067e62edd28073ac1e77021e867985bcdd0b7ed46e7437da2e12c67acaaecc161f63a6160ecb292889e7cc408427174d0d15e9997  msscf_2_13_11168-O2-wsl-installer.zip
 
 commit 23b7dfd1ab5f3099f09fab36a902756d5cbe62f0
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Mar 16 12:12:47 2020 -0600
 
     2020-03-16 MSS Code Factory CFAll 2.13.11168-202003161220 Enable production builds temporarily
@@ -1474,7 +1474,7 @@ Date:   Mon Mar 16 12:12:47 2020 -0600
     This is a github-only release.
 
 commit 7819650e35a13eb8222776a7f52767945dcc9131
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Mar 16 11:48:34 2020 -0600
 
     2020-03-16 MSS Code Factory CFAll 2.13.11166 Manufactured by 2.13.11165 to use both static_cast and dynamic_cast for Obj and EditObj buffers
@@ -1535,7 +1535,7 @@ Date:   Mon Mar 16 11:48:34 2020 -0600
             a78e06b3b61bafcee010712ba46e48b2a8272052fb1ba4b95a439dfd112f1ce72fe393b0c1c3e7a438433f71b714b300ee54efebbee6a0f0c6ca86b8fbd42c01  msscf_2_13_11166-wsl-debug-installer.zip
 
 commit c9fc7492aa629c5c502fd032d032e6024843eb5c
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 15 13:19:27 2020 -0600
 
     2020-03-15 MSS Code Factory CFAll 2.13.11166-202003151245 Remanufactured by 2.12.11165-20203151000 to ensure the Obj.hpp and EditObj.hpp always include Buff.hpp
@@ -1553,7 +1553,7 @@ Date:   Sun Mar 15 13:19:27 2020 -0600
     This is a github-only release.
 
 commit d398f32e3e856de8a7cd36b38e3f3f38fd157e62
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 15 08:46:55 2020 -0600
 
     2020-03-15 MSS Code Factory 2.13.11166-202003150845 Remanufactured by 2.12.11165-202003150800 to implement fixes for inline buffer access macros
@@ -1583,7 +1583,7 @@ Date:   Sun Mar 15 08:46:55 2020 -0600
     This is a github-only release.
 
 commit 9e12004440cf86574de23be65f41fc53a6e3c760
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 15 07:22:03 2020 -0600
 
     2020-03-15 MSS Code Factory CFLib, CFCore, CFSec, CFInt, CFDbTst 2.13.11166-202003150730-O2 Production build of the test framework for performance comparisons
@@ -1639,7 +1639,7 @@ Date:   Sun Mar 15 07:22:03 2020 -0600
             71f8b27be981f275383cdfdba502912acb57f50dbd3d7cc2cad02821d2dab2419082f8a0c2303f545c924260c5270f76071eb3764203061e1efbf070250ba75a  cfsec_2_13_11166-202003150715-O2-wsl-debug-installer.zip
 
 commit a51febd656c084ee0b18e7d2652fa65a48f76bfb
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 14 11:11:21 2020 -0600
 
     2020-03-14 MSS Code Factory CFAll 2.13.11166-202003141111 Manufactured by 2.12.11165-202003140945 to prepare for a full production build with one performance tweak
@@ -1668,7 +1668,7 @@ Date:   Sat Mar 14 11:11:21 2020 -0600
     This is a github-only release.
 
 commit 6492cccd5faa6198b632118747559721e4280754
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 14 08:23:32 2020 -0600
 
     2020-03-14 MSS Code Factory CFAll 2.13.11166-202003140825 Prepare a temporary production build of msscfcli and dependencies
@@ -1689,7 +1689,7 @@ Date:   Sat Mar 14 08:23:32 2020 -0600
     This is a github-only release.
 
 commit cf57b1a1b9acae862a6bd66cbcc7aceb08bec2fe
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 14 06:23:25 2020 -0600
 
     2020-03-14 MSS Code Factory CFAll 2.13.11164 Eliminated 262,883 lines of factory and pointer management code
@@ -1772,7 +1772,7 @@ Date:   Sat Mar 14 06:23:25 2020 -0600
             0c92927fbf18ce23f5e0be6bba8fa4bde3dbbfe1287ef08598f29687de56069f272af32faab8d48d1e80d1c1a179b54bbbba3816fb3ed1d8fdb6448e71cefada  msscf_2_13_11164-wsl-debug-installer.zip
 
 commit 4719bcade353be0084ca52ecb8b9767b48cc6dff
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Mar 13 19:26:12 2020 -0600
 
     Don't strip binaries for shipping.  Leave the debug symbols intact
@@ -1780,19 +1780,19 @@ Date:   Fri Mar 13 19:26:12 2020 -0600
     include them.
 
 commit 19708cad40e5c237e76dc1b1509c9da81e0ce650
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Mar 12 18:19:58 2020 -0600
 
     Make sure to populate ChangeLog with git log output.
 
 commit 329d6e383e6d54f9425ad73a16c345922648f7b0
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Mar 12 18:06:28 2020 -0600
 
     Sanity check.
 
 commit 3dda35dd48051378b549dedc5e29d02e1624da4a
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Mar 12 12:34:26 2020 -0600
 
     2020-03-12 MSS Code Factory CFAll 2.13.11164-202003121240 Manufactured by 2.12.11163-202003121200-BETA to replace C++ factories for key and buff instances with explicit construction
@@ -1823,7 +1823,7 @@ Date:   Thu Mar 12 12:34:26 2020 -0600
     This is a github-only release.
 
 commit 883b8b552f23af7d4b66a572c727e961a803de5a
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Mar 7 05:09:43 2020 -0600
 
     2020-03-07 MSS Code Factory CFAll 2.13.11164-202003070515 Prepare to work on plugging exception leaks in 2.13 code
@@ -1841,7 +1841,7 @@ Date:   Sat Mar 7 05:09:43 2020 -0600
     This is a github-only release.
 
 commit 46ecd43059a50414c04add3ec551c7f6c18b1d4a
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Mar 6 16:09:15 2020 -0600
 
     2020-03-06 MSS Code Factory CFAll 2.13.11162 msscfcli C++ now ready for production use
@@ -1904,7 +1904,7 @@ Date:   Fri Mar 6 16:09:15 2020 -0600
             411db780f63e8cf2ffd0358be7f99f05a67e81922d36cc3fd1ac5ebc329dea53ceb1c9c93cfcce981f507760c27c123b6a186562788e26fb5124e883a8cbec96  msscf_2_13_11162-wsl-installer.zip
 
 commit 0b39608bc9789454526888a894a71f1f7517192e
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Mar 4 09:49:14 2020 -0600
 
     2020-03-04 MSS Code Factory CFLib, CFCore, CFSec, CFInt, CFDbTst 2.13.11162-202003040930 CFDbTst 2.13 clean compiled, valgrind regression tests passed
@@ -1945,7 +1945,7 @@ Date:   Wed Mar 4 09:49:14 2020 -0600
             4b187c8b00e07e8baea6690b1d366eff4020eefea964189d2c06014522ef2192db64683ee14e69d244bf78c4065a5dd5b9d3e69ccd50a0af2cf61b991cf23cbb  cfsec_2_13_11162-202003040930-wsl-installer.zip
 
 commit 47ad2a962f905db7e9af09a7ada87a079758cae8
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 22:08:08 2020 -0600
 
     2020-03-03 MSS Code Factory CFLib 2.13.11162-202003032200 Refactored, restructured, and regression tested CFLib C++ exception hierarchy
@@ -1991,14 +1991,14 @@ Date:   Tue Mar 3 22:08:08 2020 -0600
                             CFLibSubroutineException
 
 commit 1c18fcd1af99f3f06263a1e956aeb3f409d522ec
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 19:11:43 2020 -0600
 
     Quick and dirty coding of all the remaining exceptions, barfed out in 90 minutes
     of heavy duty substition editing with vi.
 
 commit 94f18d962f5538bfddf0c5e2dfd79f2f7439701e
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 16:49:00 2020 -0600
 
     The first branches of the CFLib exception hierarchy have been
@@ -2041,7 +2041,7 @@ Date:   Tue Mar 3 16:49:00 2020 -0600
                             class CFLibSubroutineException;
 
 commit fc3438180b1bd19af7a31ef528195e88450e8518
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 11:50:11 2020 -0600
 
     The first branches of the CFLib exception hierarchy have been
@@ -2084,13 +2084,13 @@ Date:   Tue Mar 3 11:50:11 2020 -0600
                             class CFLibSubroutineException;
 
 commit 8478e34920515fd0b306737cb1e3b36492540e29
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 11:14:31 2020 -0600
 
     Much to do about nothing.  Just exceptions.  Lots and lots of exceptions.
 
 commit d874f184cdb5be7365f23e6c0e75a4285d2bee29
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 07:47:18 2020 -0600
 
     I'm trying to be consistent about my naming, though I don't always
@@ -2100,20 +2100,20 @@ Date:   Tue Mar 3 07:47:18 2020 -0600
     named InCamelCase.
 
 commit 53a9bb54ee9e33af619ede5ab45283aaa86c4e9d
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 07:09:39 2020 -0600
 
     And thus some of the exception hierarchy was reparented, and CFLibRuntimeException
     took CFLibExceptionInfo to be their lawfully wedded spouse.
 
 commit fc63cbeb75725ec4ded8c772733ec60f6a146eab
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 03:11:20 2020 -0600
 
     Work in progress.
 
 commit 0ba5eee4fda447f073da21dc51b6b4de6358a349
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Mar 3 00:49:07 2020 -0600
 
     2020-03-03 MSS Code Factory CFAll 2.13.11162-202003030050 Manufactured by 2.12.11161-202003022355 to correct invalid models and plug more memory leaks
@@ -2144,7 +2144,7 @@ Date:   Tue Mar 3 00:49:07 2020 -0600
     This is a github-only release.
 
 commit ce2d01f7878a5c746002150cee77015c9eb30014
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Mar 2 17:35:34 2020 -0600
 
     2020-03-02 MSS Code Factory CFAll 2.13.11160 Replaced std::string with classcode_t for class codes in all code
@@ -2215,20 +2215,20 @@ Date:   Mon Mar 2 17:35:34 2020 -0600
             fd7eeb8c797b8f34b161b3c8c85a487a336f9f8efd00c47e04370bbed9b63a1644298e99d39cba3f929655e3f71ab709cd972b074c97c11a26d8f8b94d31e9f9  msscf_2_13_11160-wsl-installer.zip
 
 commit e31d9a3d927fea9bd6a951433144a395c5af044d
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Mar 2 02:50:12 2020 -0600
 
     Blah.
 
 commit f933c19f56bbed713615ece5d3ef211ee9932a73
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 1 19:32:27 2020 -0600
 
     This time I'm saving this sucker as soon as I write it.  I've rewritten it
     far too many times already mucking about with branches and stuff I know not about.
 
 commit c7e896f626e86d6fab9698c37faee6209fe8eee6
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Mar 1 11:40:24 2020 -0600
 
     2020-03-01 MSS Code Factory CFAll 2.13.11160-202003011145 Manufactured by 2.12.11159-202003010710 to start with clean base libraries
@@ -2245,7 +2245,7 @@ Date:   Sun Mar 1 11:40:24 2020 -0600
     This is a github-only release.
 
 commit 53e25e34a1860c87cee30fc0134d96e18c96afde
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 29 16:45:00 2020 -0600
 
     2020-02-29 MSS Code Factory CFAll 2.13.11160-202002291645 Manufactured by 2.12.11159-202002291610 to try, try, try again
@@ -2256,7 +2256,7 @@ Date:   Sat Feb 29 16:45:00 2020 -0600
     This is a github-only release.
 
 commit 61daf014773d619fa4ef8d6cb4bdeac554765980
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 29 15:36:19 2020 -0600
 
     2020-02-29 MSS Code Factory CFAll 2.13.11160-202002291545 Manufactured by 2.12.11159-202002291515 To use classcode_t where applicable
@@ -2270,7 +2270,7 @@ Date:   Sat Feb 29 15:36:19 2020 -0600
     This is a github-only release.
 
 commit 9a0aaa18f7cf87e94bde860a1a3386ad2ad603f2
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 29 11:24:36 2020 -0600
 
     2020-02-29 MSS Code Factory CFAll 2.13.11160-202002291130 Manufactured by 2.12.11159-202002290930, Java 13 code clean compiles
@@ -2310,7 +2310,7 @@ Date:   Sat Feb 29 11:24:36 2020 -0600
     This is a github-only release.
 
 commit a3679c5449df37e29d6d34d6646b1b80681ba227
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Feb 26 16:14:04 2020 -0600
 
     2020-02-26 MSS Code Factory CFAll 2.13.11159-202002261620 Prepare to work on next release
@@ -2321,7 +2321,7 @@ Date:   Wed Feb 26 16:14:04 2020 -0600
     This is a github-only release.
 
 commit 1964c4a622891b5f413f9adfa068ab46aa87ef2c
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Feb 26 03:33:05 2020 -0600
 
     2020-02-25 MSS Code Factory CFAll 2.13.11156 Builds complete using code manufactured by 2.12.11155 to clean up the memory leaks for normal C++2a execution paths
@@ -2413,20 +2413,20 @@ Date:   Wed Feb 26 03:33:05 2020 -0600
             397231e2d857726d039f01f2f645d1d04870469cbea3a2264d622250f9bc5049057c7e0c1523a456af42302e513c1f1383f49f6397215653006f47dca41682fb  msscf_2_13_11156-wsl-installer.zip
 
 commit eced810ad054568cb449a39bd74818f563b30388
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 25 23:30:13 2020 -0600
 
     Update the packaging scripts to include copies of Apache-V2.txt and LICENSE.
 
 commit 9d7792f3dad94cabb9330d0cc27616765654d47d
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 25 23:12:52 2020 -0600
 
     Update license files to specify Copyright (c) 2020 Mark Stephen Sobkow,
     applying Apache-V2 license.
 
 commit 53592858d35799a783eff7c239cf8ef6c45ddc69
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 25 20:47:35 2020 -0600
 
     2020-02-25 MSS Code Factory CFAll 2.13.11156 Builds complete using code manufactured by 2.12.11155 to clean up the memory leaks for normal C++2a execution paths
@@ -2524,7 +2524,7 @@ Date:   Tue Feb 25 20:47:35 2020 -0600
     to pass on more responsibility to the underlying CFLibRuntimeException.
 
 commit a4be95aca03ea930f2a9dbf82f85d4b12f03be65
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 25 13:41:13 2020 -0600
 
     2020-02-25 MSS Code Factory CFAll 2.13.11156-202002251345 C++ builds complete, msscfli C++ test run performed
@@ -2545,7 +2545,7 @@ Date:   Tue Feb 25 13:41:13 2020 -0600
     issue a release.  The model changes have already been made.
 
 commit b0bdcf2850f19696e26b81d07457c05e4f16fdda
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Feb 24 12:41:25 2020 -0600
 
     2020-02-24 MSS Code Factory CFAll 2.13.11156-202002241245 Manufactured by 2.12.11155-202002241215 to fix the last of the normal operation memory leaks
@@ -2564,7 +2564,7 @@ Date:   Mon Feb 24 12:41:25 2020 -0600
     This is a github-only release.
 
 commit a348efcfafe91f83cec9a0b100fb63cb13715c08
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Feb 24 01:44:21 2020 -0600
 
     2020-02-24 MSS Code Factory CFAll 2.13.11156-202002240145 Update CFBam 2.14 model to specify limit of -9223372036854775807 instead of -9223372036854775808 for Int64 minimum values
@@ -2591,7 +2591,7 @@ Date:   Mon Feb 24 01:44:21 2020 -0600
     This is a github-only release.
 
 commit 673d87c0eb3be6827b130157dd00b45282231d9c
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 23 21:39:57 2020 -0600
 
     2020-02-23 MSS Code Factory CFAll 2.13.11155-202002232145 Remanufactured by 2.12.11154-202002232045 correcting leaks, bugs, and oversights
@@ -2616,7 +2616,7 @@ Date:   Sun Feb 23 21:39:57 2020 -0600
     This is a github-only release.
 
 commit 786728fca9710a87c19332e472cd47e25ff22cf1
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 23 01:11:33 2020 -0600
 
     2020-02-23 MSS Code Factory 2.13.11155-202002230110 Manufactured by 2.12.11154-202002230020 to get readCachedXxx() methods to scan the members map when an index entry is not found
@@ -2636,7 +2636,7 @@ Date:   Sun Feb 23 01:11:33 2020 -0600
     This is a github-only release.
 
 commit 49c851231212135a1931475757a342966afecb7c
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 22 19:38:04 2020 -0600
 
     2020-02-22 MSS Code Factory 2.13.11155-202002221940 Remanufactured by 2.12.11154-202002221920 to implement reallyDeepDispose() rather than forget()
@@ -2653,7 +2653,7 @@ Date:   Sat Feb 22 19:38:04 2020 -0600
     This is a github-only release.
 
 commit cf99166dd03ba0db49a2cad48abfb12a43c99052
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 22 11:40:51 2020 -0600
 
     2020-02-22 MSS Code Factory 2.13.11155-202002221145 Manufactured by 2.12.11154-202002221050 because I missed a couple more "Realtion"s
@@ -2664,7 +2664,7 @@ Date:   Sat Feb 22 11:40:51 2020 -0600
     This is a github-only release.
 
 commit 64af5fa8943fb9d6fd94dcaf33ef6fb549691598
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 22 03:58:44 2020 -0600
 
     2020-02-22 MSS Code Factory CFAll 2.13.11155-202002220400 Remanufactured by 2.12.11154-202002220350 to recover from my own stupidity
@@ -2682,7 +2682,7 @@ Date:   Sat Feb 22 03:58:44 2020 -0600
     This is a github-only release.
 
 commit c09247f78fc31ef18fcb454ff28abda499a680ce
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Feb 20 19:01:39 2020 -0600
 
     2020-02-20 MSS Code Factory CFAll 2.13.11155-202002201900 Remanufactured by 2.12.11154-202002201850 to rework deepDispose and added new methods for it
@@ -2722,7 +2722,7 @@ Date:   Thu Feb 20 19:01:39 2020 -0600
     This is a github-only release.
 
 commit f34f3989dc7b2ede6d8189ce39afd6638dc1ccfe
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Feb 20 02:06:02 2020 -0600
 
     2020-02-20 MSS Code Factory CFAll 2.13.11155-202002200210 Manufactured by 2.12.11154-202002200200 to plug some seriously pernicious leaks
@@ -2757,7 +2757,7 @@ Date:   Thu Feb 20 02:06:02 2020 -0600
     This is a github-only release.
 
 commit 2e6bc2feae21912717af68b826ae1e682b5775c4
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Feb 19 15:06:23 2020 -0600
 
     The only reason I wasn't seeing my code crash for any and all edits
@@ -2767,7 +2767,7 @@ Date:   Wed Feb 19 15:06:23 2020 -0600
     fixed.  Edits should no longer leak buffer instances.
 
 commit dbcd923690d0d859921f088a0922bb45321f0549
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Feb 19 05:46:04 2020 -0600
 
     2020-02-19 MSS Code Factory CFAll 2.13.11155-202002190545 Still trying to plug those last few leaks
@@ -2787,7 +2787,7 @@ Date:   Wed Feb 19 05:46:04 2020 -0600
     This is a github-only release.
 
 commit 148c00801c2ff96f47e2227abe2632a672194e6c
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 18 23:59:48 2020 -0600
 
     2020-02-19 MSS Code Factory CFAll 2.13.11155-202002190000 This release should plug the last of the generic application leaks
@@ -2802,7 +2802,7 @@ Date:   Tue Feb 18 23:59:48 2020 -0600
     changes made to that code are necessary in combination with the 2.12 rule changes to plug the leaks.
 
 commit a9ab907d3b2e6e62ce8296c474b3a11f68787476
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 18 15:49:14 2020 -0600
 
     2020-02-18 MSS Code Factory CFAll 2.13.11155-202002181600 First four valgrind tests run clean
@@ -2835,19 +2835,19 @@ Date:   Tue Feb 18 15:49:14 2020 -0600
     This is a github-only release.
 
 commit 1a84830a7a5cf7c09d4f576da6e87f4993b1f2ab
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 18 02:50:55 2020 -0600
 
     No more dynamic allocation of uuid_t will be happening.
 
 commit bc172bd0c2dad5f5005530c093b48d5b5966b6aa
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 18 02:15:38 2020 -0600
 
     Neglected to delete my context element.
 
 commit 1f7d2965888dcb5a5acb761c929ddb97ac76e495
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 18 01:24:15 2020 -0600
 
     2020-02-18 MSS Code Factory CFAll 2.13.11155-202002180130 Switch to using valgrind for leak detection, plugged a number of leaks
@@ -2890,7 +2890,7 @@ Date:   Tue Feb 18 01:24:15 2020 -0600
     This is a github-only release.
 
 commit 14bcdf7ffcfbb82063a02e53c8f002dcfb808c1b
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Feb 17 13:56:01 2020 -0600
 
     2020-02-17 MSS Code Factory CFAll 2.13.11155-202002171400 Code manufactured by 2.12.11154-202002171310 to rework date/time/timestamp implementations
@@ -2913,7 +2913,7 @@ Date:   Mon Feb 17 13:56:01 2020 -0600
     This is a github-only release.
 
 commit 04acb773bc47576b4be2ac8a7efe39913f5f576f
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 16 20:10:58 2020 -0600
 
     2020-02-16 MSS Code Factory CFAll 2.13.11153-CFAccPrototype Accounting prototype complete
@@ -3011,7 +3011,7 @@ Date:   Sun Feb 16 20:10:58 2020 -0600
             c6693dc4d70a27768ab0e4ff6aa211493047c95280de67d2fd9547104aa5a39d  msscf_2_13_2.13.11153-CFAccPrototype-wsl-installer.zip
 
 commit 16f42746c30aea4ca2749dac1a1871e83656cb4d
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 16 07:03:46 2020 -0600
 
     2020-02-16 MSS Code Factory CFLib 2.13.11153-202002160645 Add cstdio to CFLib.hpp includes
@@ -3021,7 +3021,7 @@ Date:   Sun Feb 16 07:03:46 2020 -0600
     This is a github-only release.
 
 commit 893a91e53fadff771ac237327975c092ab81f2ca
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 16 05:22:24 2020 -0600
 
     2020-02-16 MSS Code Factory CFAll 2.13.11151 Manufactured by 2.12.11151-R0
@@ -3102,7 +3102,7 @@ Date:   Sun Feb 16 05:22:24 2020 -0600
             80dc9575839684ea1d07217e9759e30ece99ffc09bc24fad7462f92abce53b12  msscf_2_13_11151-wsl-installer.zip
 
 commit 62f4b5ee3f8c86d889d0a269d242a77a81728671
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sat Feb 15 03:44:25 2020 -0600
 
     2020-02-15 MSS Code Factory CFAll 2.13.11151-20202150345-EditedModels Ready to do builds in the morning
@@ -3128,7 +3128,7 @@ Date:   Sat Feb 15 03:44:25 2020 -0600
     This is a github-only release.
 
 commit 0761b2ed34573502375820998a16dc701d068523
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Feb 14 21:27:41 2020 -0600
 
     2020-02-14 MSS Code Factory CFAll 2.13.11151-202002142130-UneditedModels Manufactured by pre-edited 2.12.11150-R0-202002142000
@@ -3151,7 +3151,7 @@ Date:   Fri Feb 14 21:27:41 2020 -0600
     This is a github-only release.
 
 commit a1dca61df0e482f46addcdf45b8f02099ddc1592
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Fri Feb 14 21:24:17 2020 -0600
 
     2020-02-14 MSS Code Factory CFAll 2.13.11151-202002142130-UneditedModels Manufactured by pre-edited 2.12.11150-R0-202002142000
@@ -3174,7 +3174,7 @@ Date:   Fri Feb 14 21:24:17 2020 -0600
     This is a github-only release.
 
 commit b6097f8149b9df3ca30232204ec4d5ff63e7dc03
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Feb 13 07:28:54 2020 -0600
 
     2020-02-13 MSS Code Factory 2.13.11146 Switched to c++2a, first full build of the 2.13 code base
@@ -3250,7 +3250,7 @@ Date:   Thu Feb 13 07:28:54 2020 -0600
             22edf5d7d80969e32d75e244f726d71ab6cc13c980d77d57193370e85957fe02  msscf_2_13_11146-wsl-installer.zip
 
 commit 100fc5907ff2c2d702871425c33aa39289e89418
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Thu Feb 13 07:26:23 2020 -0600
 
     2020-02-13 MSS Code Factory 2.13.11146 Switched to c++2a, first full build of the 2.13 code base
@@ -3326,7 +3326,7 @@ Date:   Thu Feb 13 07:26:23 2020 -0600
             22edf5d7d80969e32d75e244f726d71ab6cc13c980d77d57193370e85957fe02  msscf_2_13_11146-wsl-installer.zip
 
 commit 6576037b954dc1c77d7c74e2a58984f890c431bf
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Feb 12 10:26:08 2020 -0600
 
     2020-02-12 MSS Code Factory CFAll 2.13.11146-202002121030 Remanufactured by 2.12.11145-202002121015 to clear stale editBuff and edit$TableName$ references
@@ -3339,7 +3339,7 @@ Date:   Wed Feb 12 10:26:08 2020 -0600
     This is a github-only release.
 
 commit 8af47f5b3763255f1d6946d4f0e064f6d5c94eb1
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Wed Feb 12 00:52:49 2020 -0600
 
     2020-02-12 MSS Code Factory CFAll 2.13.11146-202002120100 Remanufactured by 2.12.11145-202002120040 to correct SAXException throws
@@ -3352,7 +3352,7 @@ Date:   Wed Feb 12 00:52:49 2020 -0600
     This is a github-only release.
 
 commit 2ea0fb6b75e678849a038b5fbf1aa008ea96f1c8
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 11 23:31:03 2020 -0600
 
     2020-02-11 MSS Code Factory CFAll 2.13.11146-202002112330 Remanufactured by 2.12.11145-202002112315 to switch from c++1z to c++2a using gcc/g++ 8 instead of 7
@@ -3367,13 +3367,13 @@ Date:   Tue Feb 11 23:31:03 2020 -0600
     This is a github-only release.
 
 commit db6625f6b4af8619efc5dab88ac96c2bc1d5bfd3
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 11 21:53:47 2020 -0600
 
     Update version strings.
 
 commit c6d5c5ab60c74d5bb4fbf8bca950afca5224a866
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 11 20:46:08 2020 -0600
 
     2020-02-11 MSS Code Factory CFAll 2.13.11144 Remanufactured by 2.12.11143 to refresh copyright periods
@@ -3401,7 +3401,7 @@ Date:   Tue Feb 11 20:46:08 2020 -0600
     Only CFLib and CFCore are being distributed for this release; all other projects are github-only.
 
 commit 10a86b37c5e019d55f79b4240eb8cf7784bd1dfb
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 11 20:38:58 2020 -0600
 
     2020-02-11 MSS Code Factory CFAll 2.13.11144 Remanufactured by 2.12.11143 to refresh copyright periods
@@ -3429,7 +3429,7 @@ Date:   Tue Feb 11 20:38:58 2020 -0600
     Only CFLib and CFCore are being distributed for this release; all other projects are github-only.
 
 commit 12a68e39e2ce7aaada9775218a5ac453d0d87d5a
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Tue Feb 11 06:04:35 2020 -0600
 
     2020-02-11 MSS Code Factory CFAll 2.13.11142 Refresh stdjars
@@ -3446,13 +3446,13 @@ Date:   Tue Feb 11 06:04:35 2020 -0600
     This is a github-only release.
 
 commit ddfa24964eeb099e735e3cb01dc6872fa4fe44cb
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Mon Feb 10 00:33:50 2020 -0600
 
     Migrate archiving and packaging scripts, build.xml scripts, and module-info.java for manufactured java modules from 2.12
 
 commit c1a3097ce35a58fb35054bcb9f893e9f7ab8f065
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 9 23:49:41 2020 -0600
 
     2020-02-09 MSS Code Factory CFAll 2.13.11139-INIT Initialize repositories with raw manufactured code
@@ -3465,7 +3465,7 @@ Date:   Sun Feb 9 23:49:41 2020 -0600
     This is a github-only release.
 
 commit 64905a2dd630235c8dec3971be77e286d42ef8c9
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 9 22:53:53 2020 -0600
 
     2020-02-09 MSS Code Factory CFAll 2.13.11138 Repositories created
@@ -3474,13 +3474,13 @@ Date:   Sun Feb 9 22:53:53 2020 -0600
     and added to the welcome.html.
 
 commit fcff4942397a1f722bcdc8a5992d6ebbff794ab1
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 9 22:41:07 2020 -0600
 
     Initialize 2.13 project repository.
 
 commit 0a34623ac88cff49b64ff550fb3838d5f8f287b8
-Author: Mark Stephen Sobkow <msobkow@sasktel.net>
+Author: Mark Stephen Sobkow <mark.sobkow@gmail.com>
 Date:   Sun Feb 9 22:31:39 2020 -0600
 
     Initial commit

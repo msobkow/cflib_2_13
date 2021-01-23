@@ -1,4 +1,4 @@
-AC_INIT([MSS Code Factory CFLib],2.13.11185,[msobkow@sasktel.net],[libcflib],[http://msscodefactory.sourceforge.net/])
+AC_INIT([MSS Code Factory CFLib],2.13.11185,[mark.sobkow@gmail.com],[libcflib],[http://msscodefactory.sourceforge.net/])
 AC_COPYRIGHT([Copyright (c) 2020 Mark Sobkow])
 AC_REVISION(2.12.11185)
 AM_INIT_AUTOMAKE([foreign])

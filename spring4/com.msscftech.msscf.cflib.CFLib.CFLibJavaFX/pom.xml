@@ -7,7 +7,7 @@
 
   <name>com.msscftech.msscf.cflib.CFLib.JavaFX</name>
   <description>MSS Code Factory 3.1 CFLib - Common Application Library - JavaFX Widgets</description>
-  <url>https://msscf.org/msscf/</url>
+  <url>https://msscode.com/msscf/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -85,8 +85,8 @@
             </execution>
           </executions>
           <configuration>
-            <keystore>/home/msobkow/keystore/msscf.org.keystore.jks</keystore>
-            <alias>msscf.org</alias>
+            <keystore>/home/msobkow/keystore/msscode.com.keystore.jks</keystore>
+            <alias>msscode.com</alias>
             <storepass>{SohDnZsL8/EHr3JcC9+3KVmrKM1UpZoR3B/eT6DX9SFza0vo4mbtklUbamNQrjxs}</storepass>
             <keypass>{SohDnZsL8/EHr3JcC9+3KVmrKM1UpZoR3B/eT6DX9SFza0vo4mbtklUbamNQrjxs}</keypass>
           </configuration>

@@ -12,7 +12,7 @@
   <version>2.13.11197</version>
   <name>org.msscf.msscf.v2_13.cflib.CFLib.JavaFX</name>
   <description>MSS Code Factory 2.13 CFLibJavaFX - Common Application Library - JavaFX Widgets</description>
-  <url>https://msscf.org/msscf/</url>
+  <url>https://msscode.com/msscf/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
